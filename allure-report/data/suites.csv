@@ -1,0 +1,4 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","13","test_login[ali@gmail.com-ali@123]","","Wed Nov 06 10:34:21 PKT 2024","broken","Wed Nov 06 10:34:21 PKT 2024","","test_abd","",""
+"","37","test_login[abd@gmail.com-abd@123]","","Wed Nov 06 10:34:40 PKT 2024","broken","Wed Nov 06 10:34:40 PKT 2024","","test_abd","",""
+"","12","test_login[abdeali@gmail.com-abdeali@123]","","Wed Nov 06 10:34:20 PKT 2024","broken","Wed Nov 06 10:34:20 PKT 2024","","test_abd","",""
