@@ -11,7 +11,7 @@ from selenium.webdriver.chrome.service import Service
 def setup_function():
     global driver
     driver = webdriver.Firefox(service=Service(GeckoDriverManager().install()))
-    driver.get('https://stage.alnafi.com/auth/sign-in')
+    driver.get('https://www.saucedemo.com/v1/')
     driver.maximize_window()
 
 def teardown_function():
@@ -19,15 +19,15 @@ def teardown_function():
 
 def my_cred():
     return [
-    ('abdeali@gmail.com', 'abdeali@123'),
-    ('ali@gmail.com', 'ali@123'),
-    ('abd@gmail.com', 'abd@123')
+    ('standard_user', 'secret_sauce'),
+    ('locked_out_user', 'secret_sauce'),
+    ('performance_glitch_user', 'secret_sauce')
     ]
     
-@pytest.mark.parametrize("email,password",my_cred())
-def test_login(email,password):
+@pytest.mark.parametrize("username,password",my_cred())
+def test_login(username,password):
     print("My pytest login")
-    driver.find_element(By.ID,'Email').send_keys(email)
+    driver.find_element(By.ID,'user-name').send_keys(username)
     time.sleep(10)
-    driver.find_element(By.ID, 'Password').send_keys(password)
+    driver.find_element(By.ID, 'password').send_keys(password)
     time.sleep(10)

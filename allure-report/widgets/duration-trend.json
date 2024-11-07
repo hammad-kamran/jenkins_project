@@ -1,1 +1,1 @@
-[{"buildOrder":2,"reportUrl":"http://192.168.10.10:8080/job/selenium_python_test/2/allure","reportName":"AllureReport","data":{"duration":20275}},{"buildOrder":1,"reportUrl":"http://192.168.10.10:8080/job/selenium_python_test/1/allure","reportName":"AllureReport","data":{"duration":23458}}]
+[{"buildOrder":2,"reportUrl":"http://192.168.10.10:8080/job/selenium_python_test/2/allure","reportName":"AllureReport","data":{"duration":55507}}]

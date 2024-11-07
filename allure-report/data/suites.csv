@@ -1,4 +1,4 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","13","test_login[ali@gmail.com-ali@123]","","Wed Nov 06 10:34:21 PKT 2024","broken","Wed Nov 06 10:34:21 PKT 2024","","test_abd","",""
-"","37","test_login[abd@gmail.com-abd@123]","","Wed Nov 06 10:34:40 PKT 2024","broken","Wed Nov 06 10:34:40 PKT 2024","","test_abd","",""
-"","12","test_login[abdeali@gmail.com-abdeali@123]","","Wed Nov 06 10:34:20 PKT 2024","broken","Wed Nov 06 10:34:20 PKT 2024","","test_abd","",""
+"","20146","test_login[locked_out_user-secret_sauce]","","Thu Nov 07 10:07:40 PKT 2024","passed","Thu Nov 07 10:08:00 PKT 2024","","test_abd","",""
+"","20126","test_login[standard_user-secret_sauce]","","Thu Nov 07 10:07:40 PKT 2024","passed","Thu Nov 07 10:08:00 PKT 2024","","test_abd","",""
+"","20188","test_login[performance_glitch_user-secret_sauce]","","Thu Nov 07 10:08:15 PKT 2024","passed","Thu Nov 07 10:08:35 PKT 2024","","test_abd","",""
